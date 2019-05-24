@@ -3507,7 +3507,7 @@ WARNING in Terser Plugin: Dropping unused function someUnRemoteUsedFunction5 [./
 `;
 
 exports[`StatsTestCases should print correct stats for wasm-explorer-examples-sync 1`] = `
-"Hash: 407595b7db32b145dad9
+"Hash: ad0545981cdc36d58931
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
                            Asset       Size  Chunks             Chunk Names
@@ -3519,7 +3519,7 @@ Built at: Thu Jan 01 1970 00:00:00 GMT
 87fa51939245856206b6.module.wasm  290 bytes   {780}  [emitted]
 938a519c5c98a175ce78.module.wasm  154 bytes   {780}  [emitted]
                     99.bundle.js  209 bytes    {99}  [emitted]
-                       bundle.js   9.91 KiB   {520}  [emitted]  main-1df31ce3
+                       bundle.js   10.8 KiB   {520}  [emitted]  main-1df31ce3
 d7e42b0af8e22f2a9b0d.module.wasm  156 bytes   {230}  [emitted]
 eeadcf7bab96be28897d.module.wasm  154 bytes   {325}  [emitted]
 f6fa1dbfe0139d2cb91b.module.wasm  531 bytes    {99}  [emitted]
@@ -3532,9 +3532,9 @@ chunk {325} 325.bundle.js, 8584a8abbb07bb16d012.module.wasm, eeadcf7bab96be28897
  [287] ./popcnt.wasm 50 bytes (javascript) 120 bytes (webassembly) {325} [built]
  [325] ./tests.js 1.44 KiB {325} [built]
  [819] ./testFunction.wasm 50 bytes (javascript) 154 bytes (webassembly) {325} [built]
-chunk {520} bundle.js (main-1df31ce3) 586 bytes (javascript) 4.41 KiB (runtime) [entry] [rendered]
+chunk {520} bundle.js (main-1df31ce3) 586 bytes (javascript) 5.09 KiB (runtime) [entry] [rendered]
  [10] ./index.js 586 bytes {520} [built]
-     + 6 hidden chunk modules
+     + 7 hidden chunk modules
 chunk {526} 526.bundle.js 34 bytes [rendered] split chunk (cache group: defaultVendors)
  [526] ./node_modules/env.js 34 bytes {526} [built]
 chunk {780} 780.bundle.js, 938a519c5c98a175ce78.module.wasm, 87fa51939245856206b6.module.wasm 110 bytes (javascript) 444 bytes (webassembly) [rendered]
@@ -3549,5 +3549,5 @@ chunk {780} 780.bundle.js, 938a519c5c98a175ce78.module.wasm, 87fa51939245856206b
 [325] ./tests.js 1.44 KiB {325} [built]
 [526] ./node_modules/env.js 34 bytes {526} [built]
 [819] ./testFunction.wasm 50 bytes (javascript) 154 bytes (webassembly) {325} [built]
-    + 6 hidden modules"
+    + 7 hidden modules"
 `;
